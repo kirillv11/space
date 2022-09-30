@@ -1,0 +1,418 @@
+body {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 300px;
+    color: #eee;
+    font-family: Century Gothic;
+    background-image: url(img/parallax.jpg);
+    background-attachment: fixed;
+
+}
+
+main {
+    width: 100%;
+    height: 1000px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+
+}
+
+footer {
+    width: 100%;
+    height: 160px;
+    background-image: url(img/parallax.jpg);
+    background-attachment: fixed;
+}
+
+
+.text_header {
+    width: 100%;
+    height: 120px;
+    display: flex;
+}
+
+.w {
+    width: 45%;
+    height: 120px;
+}
+.text_header_h1 {
+    height: 120px;
+    width: 55%;
+    color: #fff;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+}
+
+.head {
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon_1 {
+    width: 250px;
+    height: 80px;
+    background-color: black;
+    border: 4px solid #eee;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon_2 {
+    width: 150px;
+    height: 80px;
+    background-color: black;
+    border: 4px solid #eee;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px 0 30px;
+}
+.icon_3 {
+    width: 210px;
+    height: 80px;
+    background-color: black;
+    border: 4px solid #eee;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_icon {
+    width: 40px;
+    height: 40px;
+    padding: 0 15px 0 0px;
+}
+
+#sputnik {
+    transition-duration: 0.5s;    
+}
+
+.icon_1:hover #sputnik {
+    transform: scale(1.2);
+}
+
+#rocket {
+    transition-duration: 0.5s; 
+}
+
+.icon_2:hover #rocket {
+    transform: translate(0px, -10px);
+}
+
+#star {
+    transition-duration: 0.5s;
+}
+
+.icon_3:hover #star {
+    transform: rotate(180deg) translate(15px, 0px);
+}
+
+.img_ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    margin-top: 50px;
+    width: 900px;
+}
+
+.text {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.planet1 {
+    width: 200px;
+    height: 200px;
+    background-image: url(img/venus.jpg);
+    background-size: cover;
+    background-position-x: -90px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.planet2 {
+    margin: 0 5px 0 5px;
+    width: 200px;
+    height: 200px;
+    background-image: url(img/earth.jpg);
+    background-size: cover;
+    background-position-x: -90px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.planet3 {
+    width: 200px;
+    height: 200px;
+    background-image: url(img/jupiter.jpg);
+    background-size: cover;
+    background-position-x: -90px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.text_planet {
+    position: relative;
+    left: -70px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(0, 0, 0, 0);
+    transition-duration: 0.5s;
+}
+
+.planet1:hover .text_planet {
+    position: relative;
+    left: 0;
+    color: #000;
+}
+
+.planet2:hover .text_planet {
+    position: relative;
+    left: 0;
+    color: #000;
+} 
+
+.planet3:hover .text_planet {
+    position: relative;
+    left: 0;
+    color: #000;
+} 
+
+.ship1 {
+    width: 200px;
+    height: 200px;
+    background-image: url(img/spaceship1.jpg);
+    background-size: cover;
+    background-position-x: -110px;
+}
+
+.ship2 {
+    margin: 0 5px 0 5px;
+    width: 200px;
+    height: 200px;
+    background-image: url(img/spaceship2.jpg);
+    background-size: cover;
+    background-position-x: -50px;
+}
+
+.ship3 {
+    width: 200px;
+    height: 200px;
+    background-image: url(img/spaceship3.jpg);
+    background-size: cover;
+    background-position-x: -80px;
+}
+
+#p_b1 {
+    width: 200px;
+    height: 200px;
+    background-color:rgba(0,0,0, 0);
+    transition-duration: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#p_b2 {
+    width: 200px;
+    height: 200px;
+    background-color:rgba(0,0,0, 0);
+    transition-duration: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#p_b3 {
+    width: 200px;
+    height: 200px;
+    background-color:rgba(0,0,0, 0);
+    transition-duration: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.people1 {
+    width: 200px;
+    height: 200px;
+    background-image: url(img/spaceman1.jpg);
+    background-size: cover;
+}
+
+.people2 {
+    margin: 0 5px 0 5px;
+    width: 200px;
+    height: 200px;
+    background-image: url(img/spaceman2.jpg);
+    background-size: cover;
+}
+
+.people3 {
+    width: 200px;
+    height: 200px;
+    background-image: url(img/spaceman3.jpg);
+    background-size: cover;
+}
+
+.people1:hover #p_b1 {
+    background-color:rgba(0,0,0, 0.7);
+}
+
+.people1:hover > #p_b1 .block_people1 {
+    display: block;
+} 
+
+.people2:hover #p_b2 {
+    background-color:rgba(0,0,0, 0.7);
+}
+ 
+.people3:hover #p_b3 {
+    background-color:rgba(0,0,0, 0.7);
+}
+
+.people3:hover > #p_b3 .block_people3{
+    display: block;
+}
+
+.block_people1 {
+    display: none;
+}
+.text_people1 {
+    text-align: center;
+    margin-top: -20px;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+}
+
+.img_instagram1 {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block_people3 {
+    display: none;
+}
+
+.text_people3 {
+    text-align: center;
+    margin-top: -20px;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+}
+
+.img_instagram3 {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram {
+    width: 50px;
+    height: 50px;
+}
+.footer_ {
+    height: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #eee;
+}
+
+.d {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 1s;
+}
+
+.youtube {
+    margin: 0 60px 0 60px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 1s;
+}
+
+.what {
+    margin-right: 60px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 1s;
+}
+
+.chat {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 1s;  
+}
+
+.icon_footer {
+    width: 70px;
+    height: 70px;
+}
+
+.facebook:hover {
+    background-color: #2b5297;
+}
+
+.youtube:hover {
+    background-color: #c30000;
+}
+
+.what:hover {
+    background-color: #26a614;
+}
+
+.chat:hover {
+    background-color: #fdfd03;
+}
